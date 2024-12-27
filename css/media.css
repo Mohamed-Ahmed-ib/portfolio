@@ -1,0 +1,123 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .portfolio .container,
+  .services .container {
+    width: 95%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .home .home_layer .navbar .navbar_links {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block;
+    font-size: 20px;
+  }
+
+  .home .home_layer .navbar .fa-bars_container:hover + .navbar_links {
+    display: block;
+  }
+
+  .home .home_layer .navbar .navbar_links ul {
+    width: 100%;
+  }
+  .home .home_layer .navbar .navbar_links ul li {
+    float: none;
+  }
+
+  .home .home_layer .home_content h1 {
+    font-size: 40px;
+  }
+
+  .home .home_layer .home_content p:nth-of-type(1) {
+    font-size: 15px;
+  }
+
+  .home .home_layer .home_content p:nth-of-type(2) {
+    font-size: 18px;
+  }
+
+  .blog .container {
+    width: 95%;
+  }
+  .portfolio .container,
+  .services .container {
+    width: 90%;
+  }
+
+  .portfolio .portfolio_items .portfolio_item {
+    width: 50%;
+  }
+
+  .services .service_items .service_item {
+    width: 50%;
+  }
+
+  .about .about_img .about_img_border {
+    border: none;
+  }
+
+  .about .about_img {
+    padding: 0px 0px;
+  }
+
+  .about .about_img .about_img_border .img_and_layer_wrapper {
+    transform: translate(0px, 0px);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .blog .container {
+    width: 70%;
+  }
+
+  .blog .blog_items .blog_item {
+    width: 100%;
+  }
+
+  .portfolio .container,
+  .services .container {
+    width: 70%;
+  }
+
+  .about .container {
+    width: 60%;
+  }
+
+  .portfolio .portfolio_items .portfolio_item {
+    width: 100%;
+  }
+
+  .services .service_items .service_item {
+    width: 100%;
+  }
+
+  .client .card .card_content {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .client .card .card_img {
+    width: 100%;
+  }
+
+  .about .about_content {
+    width: 100%;
+  }
+
+  .about .about_img {
+    width: 100%;
+  }
+
+  .about .about_content ul li {
+    width: 100%;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
